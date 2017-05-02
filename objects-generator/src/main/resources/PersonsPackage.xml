@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ObjectInventory package="persons">
+
+	<Object name="Person">
+		<Field name="firstName" javaType="String" />
+		<Field name="lastName" javaType="String" />
+		<Field name="middleName" javaType="String" />
+		<Field name="age" javaType="int" />	
+	</Object>
+	
+	<Object name="Student">
+		<Field name="firstName" javaType="String" />
+		<Field name="lastName" javaType="String" />
+		<Field name="age" javaType="int" />
+		<Field name="year" javaType="String" />
+	</Object>	
+	
+</ObjectInventory>
