@@ -2,9 +2,9 @@ package com.p.jackson.${doc.@package};
 
 public class ${doc.@name} {
 	
-	${doc.@name}() {}
+	public ${doc.@name}() {}
 	
-	${doc.@name}(${doc.@name} ${doc.@name?lower_case}) {
+	public ${doc.@name}(${doc.@name} ${doc.@name?lower_case}) {
 		<#list doc.Field as Field>
 		this.${Field.@name} = ${doc.@name?lower_case}.get${Field.@name?cap_first}();
 		</#list>
